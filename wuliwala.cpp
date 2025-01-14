@@ -15,7 +15,7 @@ int main() {
     }
     outFile.close();
 	int numToSearch;
-	cout << "ÊäÈëÒ»¸ö1µ½20Ö®¼äµÄÊý: ";
+	cout << "è¾“å…¥ä¸€ä¸ª1åˆ°20ä¹‹é—´çš„æ•°: ";
 	cin >> numToSearch;
 	ifstream inFile("numbers.txt");
     if (!inFile) {
@@ -30,7 +30,7 @@ int main() {
         istringstream iss(line);
         iss >> num >> squareRoot;
         if (num == numToSearch) {
-            cout << numToSearch << "µÄÆ½·½¸ùÊÇ" << squareRoot << endl;
+            cout << numToSearch << "çš„å¹³æ–¹æ ¹æ˜¯" << squareRoot << endl;
             found = true;
             break;
         }
