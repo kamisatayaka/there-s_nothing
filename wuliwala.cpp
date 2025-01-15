@@ -15,7 +15,7 @@ int main() {
     }
     outFile.close();
 	int numToSearch;
-	cout << "输入一个1到20之间的数: ";
+	cout << "撒比: ";
 	cin >> numToSearch;
 	ifstream inFile("numbers.txt");
     if (!inFile) {
